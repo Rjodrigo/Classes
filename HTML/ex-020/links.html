@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+        SELETORES PERSONALIZADOS
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = children
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: black;
+            text-decoration: none; /* tirar o sublinhado do link*/
+            font-weight: bold; /* font-weight é tipo de font (negrito,itálico,sublinhado) neste caso (bold) negrito.*/
+        }
+        a:visited { /* pseudo-classe = : pseudo-elementos :: */
+            color: red;/* quando visitado anteriormente fica vermelho*/
+        }
+        a:hover {
+            color: green;
+            text-decoration: underline; /*aparecer texto sublinhado quando passar o mouse em cima. */
+        }
+        a:active {
+            color: aqua;
+        }
+        .especial::after { /* after= depois */
+            content: '←';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+
+        }
+        .especial::before { /*before antes,atenção ao ponto no início de cada class*/
+            content: '→';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgrey;
+        } 
+
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/channel/UCADJLLHtq5wZtp-3BTniwBg" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/channel/UCADJLLHtq5wZtp-3BTniwBg" target="_blank">Canal do Youtube </a></li>
+        <li><a href="https://www.cursoemvideo.com/curso" target="_blank" class="especial">Canal do Curso em Video</a></li>
+    </ul>
+    
+</body>
+</html>
