@@ -1,0 +1,49 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "TesteDePessoa",
+            "request": "launch",
+            "mainClass": "pessoa.TesteDePessoa",
+            "projectName": "Aulas Rockseat_ec2db07b"
+        },
+        {
+            "type": "java",
+            "name": "ColecaoHashSet",
+            "request": "launch",
+            "mainClass": "Estudos.ColecaoHashSet",
+            "projectName": "Aulas Rockseat_ec2db07b"
+        },
+        {
+            "type": "java",
+            "name": "Colecoes",
+            "request": "launch",
+            "mainClass": "Estudos.Colecoes",
+            "projectName": "Aulas Rockseat_ec2db07b"
+        },
+        {
+            "type": "java",
+            "name": "EstruturaDeDados",
+            "request": "launch",
+            "mainClass": "EstruturaDeDados",
+            "projectName": "Aulas Rockseat_ec2db07b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Iniciar o Chrome em relação a localhost",
+            "url": "http://localhost:8080",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
